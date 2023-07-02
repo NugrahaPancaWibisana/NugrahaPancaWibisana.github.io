@@ -71,6 +71,7 @@ section {
 
 .hamMenu {
   cursor: pointer;
+  display: none;
 }
 
 .menu1,
@@ -94,4 +95,15 @@ section {
 
 .change .menu3 {
   transform: translate(0, -9px) rotate(45deg);
+}
+
+/* RENSPONSIVITAS */
+@media (max-width: 768px) {
+  .hamMenu {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
 }
