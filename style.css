@@ -43,30 +43,12 @@ header {
 }
 
 nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
   width: 100%;
-}
-
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-
-section {
-  width: 100%;
-  height: 100vh;
 }
 
 .hamMenu {
@@ -97,6 +79,25 @@ section {
   transform: translate(0, -9px) rotate(45deg);
 }
 
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
 /* RENSPONSIVITAS */
 @media (max-width: 768px) {
   .hamMenu {
@@ -104,6 +105,28 @@ section {
   }
 
   .navbar {
+    background-color: #252525;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 47px;
+    left: 0;
+    align-items: center;
     display: none;
+    justify-content: center;
   }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar ul li a {
+    font-size: 30px;
+  }
+}
+
+.flex {
+  display: flex;
 }

@@ -7,5 +7,7 @@ const hiddenElements1 = document.querySelectorAll(".hidden");
 hiddenElements1.forEach((el) => observer1.observe(el));
 
 function hamburgerMenu(x) {
-    x.classList.toggle("change");
+  x.classList.toggle("change");
+  const navbar = document.getElementById("navbar");
+  navbar.classList.toggle("flex");
 }
