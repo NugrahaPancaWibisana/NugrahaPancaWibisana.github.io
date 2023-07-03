@@ -207,6 +207,28 @@ main #home {
   .navbar ul li a {
     font-size: 26px;
   }
+
+  .first-wrapper {
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+
+  .typing-effect .text {
+    font-size: 22px;
+  }
+
+  .sec-text {
+    overflow: hidden;
+    z-index: -10;
+  }
+
+  .right-side img {
+    width: 200px;
+    margin-top: 20px;
+  }
 }
 
 .flex {
