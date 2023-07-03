@@ -45,7 +45,7 @@ nav {
 
 .logo .icon {
   margin-right: 5px;
-  color: #16FF00;
+  color: #16ff00;
   font-size: 20px;
 }
 
@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-item a:hover {
-  color: #16FF00;
+  color: #16ff00;
 }
 
 .nav-item::before {
@@ -84,7 +84,7 @@ nav {
   height: 3px;
   bottom: -3px;
   left: 0;
-  background-color: #16FF00;
+  background-color: #16ff00;
   visibility: hidden;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
@@ -128,7 +128,10 @@ section {
   height: 100vh;
 }
 
-main #home {
+main #home,
+main #about,
+main #projects,
+main #contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +158,7 @@ main #home {
 }
 
 .text.sec-text {
-  color: #16FF00;
+  color: #16ff00;
 }
 
 .text.sec-text::before {
@@ -180,7 +183,7 @@ main #home {
 .contact {
   padding: 10px 60px;
   margin-top: 30px;
-  background-color: #16FF00;
+  background-color: #16ff00;
   border: none;
   border-radius: 20px;
   color: #303030;
@@ -190,6 +193,30 @@ main #home {
 
 .contact:hover {
   opacity: 0.8;
+}
+
+#about .second-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#about .second-wrapper .heading-1 {
+  color: #16ff00;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+#about .second-wrapper .desk1 {
+  text-align: center;
+  width: 85%;
+}
+
+#about .second-wrapper .desk1 p {
+  color: #ccc;
+  font-size: 20px;
 }
 
 .none {
