@@ -170,6 +170,32 @@ main #home {
   animation: animate 4s steps(12) infinite;
 }
 
+.deskripsi {
+  width: 700px;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 20px;
+}
+
+.contact {
+  padding: 10px 60px;
+  margin-top: 30px;
+  background-color: #16FF00;
+  border: none;
+  border-radius: 20px;
+  color: #303030;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact:hover {
+  opacity: 0.8;
+}
+
+.none {
+  display: none;
+}
+
 /* ANIMATION */
 @keyframes animate {
   40%, 60% {
@@ -213,21 +239,34 @@ main #home {
   }
   
   .title {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .typing-effect .text {
-    font-size: 22px;
+    font-size: 20px;
   }
 
-  .sec-text {
-    overflow: hidden;
-    z-index: -10;
+  .deskripsi {
+    display: none;
+  }
+
+  .contact {
+    display: none;
   }
 
   .right-side img {
-    width: 200px;
+    width: 220px;
     margin-top: 20px;
+  }
+
+  .deskripsi {
+    width: 350px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .none {
+    display: flex;
   }
 }
 
