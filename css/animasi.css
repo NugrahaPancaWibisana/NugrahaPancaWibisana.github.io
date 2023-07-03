@@ -1,0 +1,10 @@
+/* ANIMATION */
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}

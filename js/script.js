@@ -1,11 +1,3 @@
-const observer1 = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    entry.target.classList.toggle("show", entry.isIntersecting);
-  });
-});
-const hiddenElements1 = document.querySelectorAll(".hidden");
-hiddenElements1.forEach((el) => observer1.observe(el));
-
 function hamburgerMenu(x) {
   x.classList.toggle("change");
   const navbar = document.getElementById("navbar");
@@ -28,3 +20,16 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 12000);
+
+function ubahGambarSecaraBergantian() {
+  var img = document.getElementById("myImage");
+  var currentImageIndex = 1;
+  var totalImages = 4;
+  
+  setInterval(function() {
+    currentImageIndex = (currentImageIndex % totalImages) + 1;
+    img.src = "assets/pompom-" + currentImageIndex + ".png";
+  }, 2000);
+}
+  
+ubahGambarSecaraBergantian();
