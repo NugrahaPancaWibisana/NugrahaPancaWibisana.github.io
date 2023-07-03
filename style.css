@@ -242,8 +242,8 @@ main #home {
     font-size: 26px;
   }
 
-  .typing-effect .text {
-    font-size: 20px;
+  .typing-effect {
+    display: none;
   }
 
   .deskripsi {
