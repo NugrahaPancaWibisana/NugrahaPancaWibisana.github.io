@@ -25,6 +25,15 @@ header {
   align-items: center;
 }
 
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  width: 100%;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -42,13 +51,19 @@ header {
   color: #fff;
 }
 
-nav {
-  position: relative;
+
+.navbar ul {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
-  width: 100%;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
 }
 
 .hamMenu {
@@ -79,20 +94,6 @@ nav {
   transform: translate(0, -9px) rotate(45deg);
 }
 
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-
 section {
   width: 100%;
   height: 100vh;
@@ -107,7 +108,7 @@ section {
   .navbar {
     background-color: #252525;
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     position: absolute;
     top: 47px;
     left: 0;
@@ -123,7 +124,7 @@ section {
   }
 
   .navbar ul li a {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
