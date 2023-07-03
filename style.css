@@ -7,22 +7,25 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fff;
+  background-color: #303030;
 }
 
 /* Aturan untuk bagian navigation */
 header {
   position: fixed;
+  top: 0;
   width: 100%;
   height: 60px;
-  background-color: #892cdc;
+  background-color: #212121;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 20;
 }
 
 nav {
@@ -37,11 +40,12 @@ nav {
 .logo {
   display: flex;
   align-items: center;
+  cursor: default;
 }
 
 .logo .icon {
   margin-right: 5px;
-  color: #fff;
+  color: #16FF00;
   font-size: 20px;
 }
 
@@ -50,7 +54,6 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-
 
 .navbar ul {
   list-style-type: none;
@@ -64,6 +67,32 @@ nav {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item a:hover {
+  color: #16FF00;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: #16FF00;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 .hamMenu {
@@ -97,6 +126,58 @@ nav {
 section {
   width: 100%;
   height: 100vh;
+}
+
+main #home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .first-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 85%;
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.typing-effect .text {
+  position: relative;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text.sec-text {
+  color: #16FF00;
+}
+
+.text.sec-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+  border-left: 2px solid #000;
+  animation: animate 4s steps(12) infinite;
+}
+
+/* ANIMATION */
+@keyframes animate {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
 }
 
 /* RENSPONSIVITAS */

@@ -11,3 +11,20 @@ function hamburgerMenu(x) {
   const navbar = document.getElementById("navbar");
   navbar.classList.toggle("flex");
 }
+
+const text = document.querySelector(".sec-text");
+
+const textLoad = () => {
+  setTimeout(() => {
+    text.textContent = "Programmer";
+  }, 0);
+  setTimeout(() => {
+    text.textContent = "Web developer";
+  }, 4000);
+  setTimeout(() => {
+    text.textContent = "UI/UX Designer";
+  }, 8000);
+};
+
+textLoad();
+setInterval(textLoad, 12000);
