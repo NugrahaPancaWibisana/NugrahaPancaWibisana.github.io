@@ -123,18 +123,12 @@ nav {
   transform: translate(0, -9px) rotate(45deg);
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-}
-
-main #home,
-main #about,
-main #projects,
-main #contact {
+main section {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 #home .first-wrapper {
@@ -200,6 +194,8 @@ main #contact {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  width: 85%;
 }
 
 #about .second-wrapper .heading-1 {
@@ -211,7 +207,6 @@ main #contact {
 
 #about .second-wrapper .desk1 {
   text-align: center;
-  width: 85%;
 }
 
 #about .second-wrapper .desk1 p {
