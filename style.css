@@ -43,12 +43,6 @@ nav {
   cursor: default;
 }
 
-.logo .icon {
-  margin-right: 5px;
-  color: #16ff00;
-  font-size: 20px;
-}
-
 .logo p {
   font-size: 22px;
   font-weight: 600;
@@ -191,4 +185,84 @@ main section {
 
 .none {
   display: none;
+}
+
+/* ANIMATION */
+@keyframes animate {
+  40%,
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+/* RENSPONSIVITAS */
+@media (max-width: 768px) {
+  .hamMenu {
+    display: block;
+  }
+
+  .navbar {
+    background-color: #252525;
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    align-items: center;
+    display: none;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar ul li a {
+    font-size: 26px;
+  }
+
+  .first-wrapper {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .typing-effect {
+    display: none;
+  }
+
+  .deskripsi {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .right-side img {
+    width: 220px;
+    margin-top: 20px;
+  }
+
+  .deskripsi {
+    margin-top: 10px;
+    width: 360px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .none {
+    display: flex;
+  }
+
+  .flex {
+    display: flex;
+  }
 }
