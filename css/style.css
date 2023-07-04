@@ -189,35 +189,6 @@ main section {
   opacity: 0.8;
 }
 
-#about .second-wrapper {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  width: 85%;
-}
-
-#about .second-wrapper .heading-1 {
-  color: #16ff00;
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 100px;
-}
-
-#about .second-wrapper .desk1 {
-  text-align: center;
-}
-
-#about .second-wrapper .desk1 p {
-  color: #ccc;
-  font-size: 20px;
-}
-
 .none {
   display: none;
-}
-
-.flex {
-  display: flex;
 }

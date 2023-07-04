@@ -1,5 +1,5 @@
 /* RENSPONSIVITAS */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hamMenu {
     display: block;
   }
@@ -59,6 +59,10 @@
   }
 
   .none {
+    display: flex;
+  }
+
+  .flex {
     display: flex;
   }
 }
