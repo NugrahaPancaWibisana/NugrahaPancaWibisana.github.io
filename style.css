@@ -15,7 +15,7 @@ body {
   background-color: #303030;
 }
 
-/* Aturan untuk bagian navigation */
+/* NAVIGATION CODES */
 header {
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ header {
   z-index: 20;
 }
 
-nav {
+header nav {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -37,19 +37,19 @@ nav {
   width: 100%;
 }
 
-.logo {
+header nav .logo {
   display: flex;
   align-items: center;
   cursor: default;
 }
 
-.logo p {
+header nav .logo p {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
 
-.navbar ul {
+header nav .navbar ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -57,21 +57,21 @@ nav {
   gap: 20px;
 }
 
-.navbar ul li a {
+header nav .navbar ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
 }
 
-.nav-item {
+header nav .navbar .nav-hover .nav-item {
   position: relative;
 }
 
-.nav-item a:hover {
+header nav .navbar .nav-hover .nav-item a:hover {
   color: #16ff00;
 }
 
-.nav-item::before {
+header nav .navbar .nav-hover .nav-item::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -84,19 +84,19 @@ nav {
   transition: transform 0.3s ease-in-out;
 }
 
-.nav-item:hover::before {
+header nav .navbar .nav-hover .nav-item:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-.hamMenu {
+header nav .hamMenu {
   cursor: pointer;
   display: none;
 }
 
-.menu1,
-.menu2,
-.menu3 {
+header nav .hamMenu .menu1,
+header nav .hamMenu .menu2,
+header nav .hamMenu .menu3 {
   width: 35px;
   height: 4px;
   border-radius: 15px;
@@ -105,18 +105,7 @@ nav {
   transition: all 0.5s;
 }
 
-.change .menu1 {
-  transform: translate(0, 9px) rotate(-45deg);
-}
-
-.change .menu2 {
-  opacity: 0;
-}
-
-.change .menu3 {
-  transform: translate(0, -9px) rotate(45deg);
-}
-
+/* MAIN SECTION CODES */
 main section {
   display: flex;
   align-items: center;
@@ -125,31 +114,32 @@ main section {
   height: 100vh;
 }
 
-#home .first-wrapper {
+/* SECTION HOME CODES */
+main #home .first-wrapper {
   justify-content: space-between;
   align-items: center;
   display: flex;
   width: 85%;
 }
 
-.title {
+main #home .first-wrapper .left-side .title {
   color: #fff;
   font-size: 36px;
   font-weight: bold;
 }
 
-.typing-effect .text {
+main #home .first-wrapper .left-side .typing-effect .text {
   position: relative;
   font-size: 30px;
   font-weight: 600;
   color: #fff;
 }
 
-.text.sec-text {
+main #home .first-wrapper .left-side .typing-effect .text.sec-text {
   color: #16ff00;
 }
 
-.text.sec-text::before {
+main #home .first-wrapper .left-side .typing-effect .text.sec-text::before {
   content: "";
   position: absolute;
   top: 0;
@@ -161,14 +151,14 @@ main section {
   animation: animate 4s steps(12) infinite;
 }
 
-.deskripsi {
+main #home .first-wrapper .left-side .deskripsi {
   width: 700px;
   margin-top: 10px;
   color: #ccc;
   font-size: 20px;
 }
 
-.contact {
+main #home .first-wrapper .left-side .contact {
   padding: 10px 60px;
   margin-top: 30px;
   background-color: #16ff00;
@@ -179,10 +169,11 @@ main section {
   font-weight: bold;
 }
 
-.contact:hover {
+main #home .first-wrapper .left-side .contact:hover {
   opacity: 0.8;
 }
 
+/* SECTION ABOUT CODES */
 #about .second-wrapper {
   align-items: center;
   justify-content: center;
@@ -257,6 +248,18 @@ main section {
 }
 
 /* ANIMATION */
+.change .menu1 {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .menu2 {
+  opacity: 0;
+}
+
+.change .menu3 {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
 @keyframes animate {
   40%,
   60% {
