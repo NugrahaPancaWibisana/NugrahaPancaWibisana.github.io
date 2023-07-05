@@ -183,8 +183,81 @@ main section {
   opacity: 0.8;
 }
 
+#about .second-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 65vh;
+}
+
+#about .second-wrapper .heading-about {
+  color: #16ff00;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#about .second-wrapper .quest {
+  background-color: #252525;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  cursor: default;
+}
+
+#about .second-wrapper .quest .qna {
+  width: 100%;
+  cursor: pointer;
+}
+
+#about .second-wrapper .quest .qna .question {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#about .second-wrapper .quest .qna .answer {
+  position: relative;
+  font-size: 18px;
+  padding: 0 10px;
+  color: #ccc;
+  display: none;
+}
+
+#about .second-wrapper .quest .qna .answer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #16ff00;
+  border-radius: 50px;
+}
+
 .none {
   display: none;
+}
+
+.block {
+  display: block;
+}
+
+.garis {
+  margin-top: 5px;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
 }
 
 /* ANIMATION */
