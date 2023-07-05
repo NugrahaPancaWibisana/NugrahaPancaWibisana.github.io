@@ -33,3 +33,26 @@ function ubahGambarSecaraBergantian() {
 }
   
 ubahGambarSecaraBergantian();
+
+const buttons = document.querySelectorAll('.qna');
+const descriptions = document.querySelectorAll('.answer');
+const icons = document.querySelectorAll(".icon-about")
+
+buttons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    if (descriptions[index].style.display === 'block') {
+      descriptions[index].style.display = 'none';
+      icons[index].style.transform = 'rotate(0deg)'; 
+    } else {
+      descriptions.forEach((description) => {
+        description.style.display = 'none';
+      });
+      icons.forEach((icon) => {
+        icon.style.transform = 'rotate(0deg)';
+      });
+
+      descriptions[index].style.display = 'block';
+      icons[index].style.transform = 'rotate(90deg)';
+    }
+  });
+});
