@@ -241,7 +241,7 @@ main #home .first-wrapper .left-side .contact:hover {
   display: none;
 }
 
-.garis {
+#about .second-wrapper .quest .qna .garis {
   margin-top: 5px;
   width: 100%;
   height: 3px;
