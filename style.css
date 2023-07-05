@@ -187,6 +187,7 @@ main #home .first-wrapper .left-side .contact:hover {
   color: #16ff00;
   font-size: 28px;
   font-weight: bold;
+  margin-bottom: 100px;
 }
 
 #about .second-wrapper .quest {
