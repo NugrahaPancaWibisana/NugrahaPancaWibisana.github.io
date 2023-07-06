@@ -273,11 +273,11 @@ main #home .first-wrapper .left-side .contact:hover {
 
 /* RENSPONSIVITAS */
 @media (max-width: 768px) {
-  .hamMenu {
+  header nav .hamMenu {
     display: block;
   }
 
-  .navbar {
+  header nav .navbar {
     background-color: #252525;
     width: 100%;
     height: 45vh;
@@ -289,42 +289,42 @@ main #home .first-wrapper .left-side .contact:hover {
     justify-content: center;
   }
 
-  .navbar ul {
+  header nav .navbar ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .navbar ul li a {
+  header nav .navbar ul li a {
     font-size: 26px;
   }
 
-  .first-wrapper {
+  main #home .first-wrapper {
     flex-direction: column;
   }
 
-  .title {
+  main #home .first-wrapper .left-side .title {
     font-size: 26px;
   }
 
-  .typing-effect {
+  main #home .first-wrapper .left-side .typing-effect {
     display: none;
   }
 
-  .deskripsi {
+  main #home .first-wrapper .left-side .deskripsi {
     display: none;
   }
 
-  .contact {
+  main #home .first-wrapper .left-side .contact {
     display: none;
   }
 
-  .right-side img {
+  main #home .first-wrapper .right-side img {
     width: 220px;
     margin-top: 20px;
   }
 
-  .deskripsi {
+  main #home .first-wrapper .left-side .deskripsi {
     margin-top: 10px;
     width: 360px;
     font-size: 16px;
@@ -332,7 +332,7 @@ main #home .first-wrapper .left-side .contact:hover {
   }
 
   .none {
-    display: flex;
+    display: none;
   }
 
   .flex {
