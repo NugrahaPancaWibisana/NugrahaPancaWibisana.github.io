@@ -1,7 +1,3 @@
-function hamburgerMenu(x) {
-  x.classList.toggle("change");
-}
-
 const hamburg = document.querySelector(".hamMenu");
 const navbar = document.getElementById("navbar");
 let ifTrue = true;
@@ -14,6 +10,7 @@ hamburg.addEventListener("click", () => {
     navbar.removeAttribute('style');
     ifTrue = true;
   }
+  hamburg.classList.toggle("change");
 });
 
 const text = document.querySelector(".sec-text");
