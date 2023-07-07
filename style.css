@@ -331,8 +331,20 @@ main #home .first-wrapper .left-side .contact:hover {
     text-align: center;
   }
 
+  main #about .second-wrapper .quest .qna .question p {
+    font-size: 16px;
+  }
+
+  main #about .second-wrapper .quest .qna .answer p {
+    font-size: 14px;
+  }
+
   .none {
-    display: none;
+    display: flex;
+    color: #ccc;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
   }
 
   .flex {
