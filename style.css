@@ -237,10 +237,6 @@ main #home .first-wrapper .left-side .contact:hover {
   border-radius: 50px;
 }
 
-.none {
-  display: none;
-}
-
 #about .second-wrapper .quest .qna .garis {
   margin-top: 5px;
   width: 100%;
@@ -248,6 +244,9 @@ main #home .first-wrapper .left-side .contact:hover {
   background-color: #fff;
 }
 
+.none {
+  display: none;
+}
 /* ANIMATION */
 .change .menu1 {
   transform: translate(0, 9px) rotate(-45deg);
@@ -342,12 +341,8 @@ main #home .first-wrapper .left-side .contact:hover {
   .none {
     display: flex;
     color: #ccc;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     margin-top: 20px;
-  }
-
-  .flex {
-    display: flex;
   }
 }

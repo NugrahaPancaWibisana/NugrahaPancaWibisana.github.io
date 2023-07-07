@@ -1,8 +1,20 @@
 function hamburgerMenu(x) {
   x.classList.toggle("change");
-  const navbar = document.getElementById("navbar");
-  navbar.classList.toggle("flex");
 }
+
+const hamburg = document.querySelector(".hamMenu");
+const navbar = document.getElementById("navbar");
+let ifTrue = true;
+
+hamburg.addEventListener("click", () => {
+  if (ifTrue) {
+    navbar.style.display = "flex";
+    ifTrue = false;
+  } else {
+    navbar.removeAttribute('style');
+    ifTrue = true;
+  }
+});
 
 const text = document.querySelector(".sec-text");
 
