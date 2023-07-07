@@ -174,7 +174,7 @@ main #home .first-wrapper .left-side .contact:hover {
 }
 
 /* SECTION ABOUT CODES */
-#about .second-wrapper {
+main #about .second-wrapper {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -183,14 +183,14 @@ main #home .first-wrapper .left-side .contact:hover {
   height: 65vh;
 }
 
-#about .second-wrapper .heading-about {
+main #about .second-wrapper .heading-about {
   color: #16ff00;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 100px;
 }
 
-#about .second-wrapper .quest {
+main #about .second-wrapper .quest {
   background-color: #252525;
   width: 100%;
   height: 100%;
@@ -203,12 +203,12 @@ main #home .first-wrapper .left-side .contact:hover {
   cursor: default;
 }
 
-#about .second-wrapper .quest .qna {
+main #about .second-wrapper .quest .qna {
   width: 100%;
   cursor: pointer;
 }
 
-#about .second-wrapper .quest .qna .question {
+main #about .second-wrapper .quest .qna .question {
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -218,7 +218,7 @@ main #home .first-wrapper .left-side .contact:hover {
   font-weight: 600;
 }
 
-#about .second-wrapper .quest .qna .answer {
+main #about .second-wrapper .quest .qna .answer {
   position: relative;
   font-size: 18px;
   padding: 0 10px;
@@ -226,7 +226,7 @@ main #home .first-wrapper .left-side .contact:hover {
   display: none;
 }
 
-#about .second-wrapper .quest .qna .answer::before {
+main #about .second-wrapper .quest .qna .answer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -237,11 +237,28 @@ main #home .first-wrapper .left-side .contact:hover {
   border-radius: 50px;
 }
 
-#about .second-wrapper .quest .qna .garis {
+main #about .second-wrapper .quest .qna .garis {
   margin-top: 5px;
   width: 100%;
   height: 3px;
   background-color: #fff;
+}
+
+/* SECTION PROJECT CODES */
+main #projects .third-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 65vh;
+}
+
+main #projects .third-wrapper .heading-projects {
+  color: #16ff00;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
 
 .none {
