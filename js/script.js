@@ -7,7 +7,7 @@ hamburg.addEventListener("click", () => {
     navbar.style.display = "flex";
     ifTrue = false;
   } else {
-    navbar.removeAttribute('style');
+    navbar.removeAttribute("style");
     ifTrue = true;
   }
   hamburg.classList.toggle("change");
