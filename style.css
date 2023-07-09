@@ -277,9 +277,18 @@ main #projects .third-wrapper .desk-project {
 }
 
 main #projects .third-wrapper .project-card {
-  align-items: center;
+  align-items: start;
   justify-content: center;
   display: flex;
+}
+
+main #projects .third-wrapper .project-card .card-item {
+  width: 400px;
+  margin: 0 20px;
+}
+
+main #projects .third-wrapper .project-card .card-item img {
+  
 }
 
 .none {
