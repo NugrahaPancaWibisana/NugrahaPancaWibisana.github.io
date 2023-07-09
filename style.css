@@ -285,10 +285,11 @@ main #projects .third-wrapper .project-card {
 main #projects .third-wrapper .project-card .card-item {
   width: 400px;
   margin: 0 20px;
+  background-color: #252525;
 }
 
 main #projects .third-wrapper .project-card .card-item img {
-  
+  border-radius: 0 0 20px 20px;
 }
 
 .none {
