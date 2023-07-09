@@ -15,6 +15,8 @@ body {
   background-color: #303030;
 }
 
+
+
 /* NAVIGATION CODES */
 header {
   position: fixed;
@@ -105,6 +107,8 @@ header nav .hamMenu .menu3 {
   transition: all 0.5s;
 }
 
+
+
 /* MAIN SECTION CODES */
 main section {
   display: flex;
@@ -113,6 +117,8 @@ main section {
   width: 100%;
   height: 100vh;
 }
+
+
 
 /* SECTION HOME CODES */
 main #home .first-wrapper {
@@ -172,6 +178,8 @@ main #home .first-wrapper .left-side .contact {
 main #home .first-wrapper .left-side .contact:hover {
   opacity: 0.8;
 }
+
+
 
 /* SECTION ABOUT CODES */
 main #about .second-wrapper {
@@ -244,6 +252,8 @@ main #about .second-wrapper .quest .qna .garis {
   background-color: #fff;
 }
 
+
+
 /* SECTION PROJECT CODES */
 main #projects .third-wrapper {
   align-items: center;
@@ -264,6 +274,9 @@ main #projects .third-wrapper .heading-projects {
 .none {
   display: none;
 }
+
+
+
 /* ANIMATION */
 .change .menu1 {
   transform: translate(0, 9px) rotate(-45deg);
@@ -286,6 +299,8 @@ main #projects .third-wrapper .heading-projects {
     left: 0%;
   }
 }
+
+
 
 /* RENSPONSIVITAS */
 @media (max-width: 768px) {
