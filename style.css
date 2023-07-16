@@ -270,26 +270,38 @@ main #projects .third-wrapper .heading-projects {
   font-weight: bold;
 }
 
-main #projects .third-wrapper .desk-project {
-  text-align: center;
-  color: #fff;
-  width: 70%;
-}
-
 main #projects .third-wrapper .project-card {
   align-items: start;
   justify-content: center;
   display: flex;
+  margin-top: 20px;
 }
 
 main #projects .third-wrapper .project-card .card-item {
   width: 400px;
   margin: 0 20px;
   background-color: #252525;
+  height: 370px;
+  color: #fff;
 }
 
 main #projects .third-wrapper .project-card .card-item img {
   border-radius: 0 0 20px 20px;
+}
+
+main #projects .third-wrapper .project-card .card-item .desk-card {
+  padding: 20px;
+}
+
+main #projects .third-wrapper .project-card .card-item .desk-card .header-card {
+  color: #16ff00;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main #projects .third-wrapper .project-card .card-item .desk-card .deskripsi-card {
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .none {
