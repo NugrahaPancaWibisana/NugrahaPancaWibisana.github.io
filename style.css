@@ -283,6 +283,7 @@ main #projects .third-wrapper .project-card .card-item {
   background-color: #252525;
   height: 370px;
   color: #fff;
+  border-radius: 0 0 20px 20px;
 }
 
 main #projects .third-wrapper .project-card .card-item img {
