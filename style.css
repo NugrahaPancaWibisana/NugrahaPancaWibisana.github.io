@@ -322,6 +322,31 @@ main #projects .third-wrapper .github {
   text-transform: uppercase;
 }
 
+
+
+/* SECTION CONTACT CODES */
+main #contact .four-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 65vh;
+}
+
+main #contact .four-wrapper .heading-contact {
+  color: #16ff00;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main #contact .four-wrapper .desk-contact {
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin-top: 10px;
+}
+
 .none {
   display: none;
 }
