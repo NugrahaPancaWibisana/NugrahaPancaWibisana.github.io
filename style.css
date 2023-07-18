@@ -509,6 +509,9 @@ footer {
   main #projects .third-wrapper .github {
     text-align: center;
   }
+  main #contact {
+    height: 250vh;
+  }
 
   main #contact .four-wrapper {
     margin-top: 580px;
@@ -516,6 +519,14 @@ footer {
 
   main #contact .four-wrapper .heading-contact {
     margin-bottom: 20px;
+  }
+
+  main #contact .four-wrapper .contact-card {
+    flex-direction: column;
+  }
+
+  main #contact .four-wrapper .contact-card .media-social {
+    margin-top: 20px;
   }
 
   .none {
