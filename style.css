@@ -523,10 +523,12 @@ footer {
 
   main #contact .four-wrapper .contact-card {
     flex-direction: column;
+    width: 100%;
   }
 
   main #contact .four-wrapper .contact-card .media-social {
     margin-top: 20px;
+    width: 85%;
   }
 
   .none {
